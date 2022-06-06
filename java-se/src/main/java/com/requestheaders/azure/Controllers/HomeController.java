@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController {
-    String message = "custom-request-header-size-example-java-se";
+    String message = "custom-request-header-size-example-java-se-sb";
 
     @GetMapping("/")
     public String index() {
