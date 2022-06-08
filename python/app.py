@@ -10,3 +10,5 @@ def index():
 @app.route("/api/log/headers")
 def headers():
     return jsonify({ "msg": dict(request.headers) })
+
+                                             
